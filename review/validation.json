@@ -1,0 +1,108 @@
+{
+  "asOf": "2026-10-24",
+  "source": "TrendSpider native request.fundamental; captured through visible Custom Indicator Editor console",
+  "results": [
+    {
+      "ticker": "AAPL",
+      "status": "PAYOUT COVERED BY FCF",
+      "ready": true,
+      "period": 20260627,
+      "ocf": 146724000000,
+      "fcf": 136683000000,
+      "payout": 104569000000,
+      "remainder": 32114000000,
+      "coverage": 1.3071082251910222,
+      "stressRemainder": 2769200000,
+      "fcfCheck": true,
+      "missingCore": []
+    },
+    {
+      "ticker": "BA",
+      "status": "LIMITED DATA",
+      "ready": false,
+      "period": 20260630,
+      "ocf": 3639000000,
+      "fcf": -210000000,
+      "payout": null,
+      "remainder": null,
+      "coverage": null,
+      "stressRemainder": null,
+      "fcfCheck": true,
+      "missingCore": [
+        "dividends_paid"
+      ]
+    },
+    {
+      "ticker": "CSCO",
+      "status": "PAYOUT EXCEEDS FCF",
+      "ready": true,
+      "period": 20260725,
+      "ocf": 14177000000,
+      "fcf": 12767000000,
+      "payout": 13727000000,
+      "remainder": -960000000,
+      "coverage": 0.930064835725213,
+      "stressRemainder": -3795400000,
+      "fcfCheck": true,
+      "missingCore": []
+    },
+    {
+      "ticker": "CVX",
+      "status": "PAYOUT COVERED BY FCF",
+      "ready": true,
+      "period": 20260630,
+      "ocf": 45321000000,
+      "fcf": 27012000000,
+      "payout": 23766000000,
+      "remainder": 3246000000,
+      "coverage": 1.1365816712951275,
+      "stressRemainder": -5818200000,
+      "fcfCheck": true,
+      "missingCore": []
+    },
+    {
+      "ticker": "JPM",
+      "status": "SECTOR OUT OF SCOPE",
+      "ready": false,
+      "period": null,
+      "ocf": null,
+      "fcf": null,
+      "payout": null,
+      "remainder": null,
+      "coverage": null,
+      "stressRemainder": null,
+      "fcfCheck": null,
+      "missingCore": []
+    },
+    {
+      "ticker": "MSFT",
+      "status": "PAYOUT COVERED BY FCF",
+      "ready": true,
+      "period": 20260630,
+      "ocf": 182935000000,
+      "fcf": 66987000000,
+      "payout": 46707000000,
+      "remainder": 20280000000,
+      "coverage": 1.4341961590339778,
+      "stressRemainder": -16307000000,
+      "fcfCheck": true,
+      "missingCore": []
+    },
+    {
+      "ticker": "NKE",
+      "status": "LIMITED DATA",
+      "ready": false,
+      "period": 20260831,
+      "ocf": 2781000000,
+      "fcf": 2105000000,
+      "payout": null,
+      "remainder": null,
+      "coverage": null,
+      "stressRemainder": null,
+      "fcfCheck": true,
+      "missingCore": [
+        "cash_from_repurchase_equity"
+      ]
+    }
+  ]
+}

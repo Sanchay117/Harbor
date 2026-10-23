@@ -1,0 +1,1097 @@
+{
+  "ticker": "AAPL",
+  "data": {
+    "net_cash_operating_activities": [
+      {
+        "reportdate": 1782532800,
+        "reportDateShort": 20260627,
+        "year": 2026,
+        "quarter": 3,
+        "value": 34369000000
+      },
+      {
+        "reportdate": 1774670400,
+        "reportDateShort": 20260328,
+        "year": 2026,
+        "quarter": 2,
+        "value": 28702000000
+      },
+      {
+        "reportdate": 1766811600,
+        "reportDateShort": 20251227,
+        "year": 2026,
+        "quarter": 1,
+        "value": 53925000000
+      },
+      {
+        "reportdate": 1758945600,
+        "reportDateShort": 20250927,
+        "year": 2025,
+        "quarter": 4,
+        "value": 29728000000
+      },
+      {
+        "reportdate": 1751083200,
+        "reportDateShort": 20250628,
+        "year": 2025,
+        "quarter": 3,
+        "value": 27867000000
+      },
+      {
+        "reportdate": 1743220800,
+        "reportDateShort": 20250329,
+        "year": 2025,
+        "quarter": 2,
+        "value": 23952000000
+      },
+      {
+        "reportdate": 1735362000,
+        "reportDateShort": 20241228,
+        "year": 2025,
+        "quarter": 1,
+        "value": 29935000000
+      },
+      {
+        "reportdate": 1727496000,
+        "reportDateShort": 20240928,
+        "year": 2024,
+        "quarter": 4,
+        "value": 26811000000
+      },
+      {
+        "reportdate": 1719633600,
+        "reportDateShort": 20240629,
+        "year": 2024,
+        "quarter": 3,
+        "value": 28858000000
+      },
+      {
+        "reportdate": 1711771200,
+        "reportDateShort": 20240330,
+        "year": 2024,
+        "quarter": 2,
+        "value": 22690000000
+      },
+      {
+        "reportdate": 1703912400,
+        "reportDateShort": 20231230,
+        "year": 2024,
+        "quarter": 1,
+        "value": 39895000000
+      },
+      {
+        "reportdate": 1696046400,
+        "reportDateShort": 20230930,
+        "year": 2023,
+        "quarter": 4,
+        "value": 21598000000
+      }
+    ],
+    "purchase_fixed_assets": [
+      {
+        "reportdate": 1782532800,
+        "reportDateShort": 20260627,
+        "year": 2026,
+        "quarter": 3,
+        "value": -2455000000
+      },
+      {
+        "reportdate": 1774670400,
+        "reportDateShort": 20260328,
+        "year": 2026,
+        "quarter": 2,
+        "value": -1971000000
+      },
+      {
+        "reportdate": 1766811600,
+        "reportDateShort": 20251227,
+        "year": 2026,
+        "quarter": 1,
+        "value": -2373000000
+      },
+      {
+        "reportdate": 1758945600,
+        "reportDateShort": 20250927,
+        "year": 2025,
+        "quarter": 4,
+        "value": -3242000000
+      },
+      {
+        "reportdate": 1751083200,
+        "reportDateShort": 20250628,
+        "year": 2025,
+        "quarter": 3,
+        "value": -3462000000
+      },
+      {
+        "reportdate": 1743220800,
+        "reportDateShort": 20250329,
+        "year": 2025,
+        "quarter": 2,
+        "value": -3071000000
+      },
+      {
+        "reportdate": 1735362000,
+        "reportDateShort": 20241228,
+        "year": 2025,
+        "quarter": 1,
+        "value": -2940000000
+      },
+      {
+        "reportdate": 1727496000,
+        "reportDateShort": 20240928,
+        "year": 2024,
+        "quarter": 4,
+        "value": -2908000000
+      },
+      {
+        "reportdate": 1719633600,
+        "reportDateShort": 20240629,
+        "year": 2024,
+        "quarter": 3,
+        "value": -2151000000
+      },
+      {
+        "reportdate": 1711771200,
+        "reportDateShort": 20240330,
+        "year": 2024,
+        "quarter": 2,
+        "value": -1996000000
+      },
+      {
+        "reportdate": 1703912400,
+        "reportDateShort": 20231230,
+        "year": 2024,
+        "quarter": 1,
+        "value": -2392000000
+      },
+      {
+        "reportdate": 1696046400,
+        "reportDateShort": 20230930,
+        "year": 2023,
+        "quarter": 4,
+        "value": -2163000000
+      }
+    ],
+    "dividends_paid": [
+      {
+        "reportdate": 1782532800,
+        "reportDateShort": 20260627,
+        "year": 2026,
+        "quarter": 3,
+        "value": -4035000000
+      },
+      {
+        "reportdate": 1774670400,
+        "reportDateShort": 20260328,
+        "year": 2026,
+        "quarter": 2,
+        "value": -3822000000
+      },
+      {
+        "reportdate": 1766811600,
+        "reportDateShort": 20251227,
+        "year": 2026,
+        "quarter": 1,
+        "value": -3921000000
+      },
+      {
+        "reportdate": 1758945600,
+        "reportDateShort": 20250927,
+        "year": 2025,
+        "quarter": 4,
+        "value": -3862000000
+      },
+      {
+        "reportdate": 1751083200,
+        "reportDateShort": 20250628,
+        "year": 2025,
+        "quarter": 3,
+        "value": -3945000000
+      },
+      {
+        "reportdate": 1743220800,
+        "reportDateShort": 20250329,
+        "year": 2025,
+        "quarter": 2,
+        "value": -3758000000
+      },
+      {
+        "reportdate": 1735362000,
+        "reportDateShort": 20241228,
+        "year": 2025,
+        "quarter": 1,
+        "value": -3856000000
+      },
+      {
+        "reportdate": 1727496000,
+        "reportDateShort": 20240928,
+        "year": 2024,
+        "quarter": 4,
+        "value": -3804000000
+      },
+      {
+        "reportdate": 1719633600,
+        "reportDateShort": 20240629,
+        "year": 2024,
+        "quarter": 3,
+        "value": -3895000000
+      },
+      {
+        "reportdate": 1711771200,
+        "reportDateShort": 20240330,
+        "year": 2024,
+        "quarter": 2,
+        "value": -3710000000
+      },
+      {
+        "reportdate": 1703912400,
+        "reportDateShort": 20231230,
+        "year": 2024,
+        "quarter": 1,
+        "value": -3825000000
+      },
+      {
+        "reportdate": 1696046400,
+        "reportDateShort": 20230930,
+        "year": 2023,
+        "quarter": 4,
+        "value": -3758000000
+      }
+    ],
+    "decrease_capital_stock": [
+      {
+        "reportdate": 1782532800,
+        "reportDateShort": 20260627,
+        "year": 2026,
+        "quarter": 3,
+        "value": -28315000000
+      },
+      {
+        "reportdate": 1774670400,
+        "reportDateShort": 20260328,
+        "year": 2026,
+        "quarter": 2,
+        "value": -12618000000
+      },
+      {
+        "reportdate": 1766811600,
+        "reportDateShort": 20251227,
+        "year": 2026,
+        "quarter": 1,
+        "value": -27623000000
+      },
+      {
+        "reportdate": 1758945600,
+        "reportDateShort": 20250927,
+        "year": 2025,
+        "quarter": 4,
+        "value": -20373000000
+      },
+      {
+        "reportdate": 1751083200,
+        "reportDateShort": 20250628,
+        "year": 2025,
+        "quarter": 3,
+        "value": -23589000000
+      },
+      {
+        "reportdate": 1743220800,
+        "reportDateShort": 20250329,
+        "year": 2025,
+        "quarter": 2,
+        "value": -26182000000
+      },
+      {
+        "reportdate": 1735362000,
+        "reportDateShort": 20241228,
+        "year": 2025,
+        "quarter": 1,
+        "value": -26527000000
+      },
+      {
+        "reportdate": 1727496000,
+        "reportDateShort": 20240928,
+        "year": 2024,
+        "quarter": 4,
+        "value": -25361000000
+      },
+      {
+        "reportdate": 1719633600,
+        "reportDateShort": 20240629,
+        "year": 2024,
+        "quarter": 3,
+        "value": -28810000000
+      },
+      {
+        "reportdate": 1711771200,
+        "reportDateShort": 20240330,
+        "year": 2024,
+        "quarter": 2,
+        "value": -23489000000
+      },
+      {
+        "reportdate": 1703912400,
+        "reportDateShort": 20231230,
+        "year": 2024,
+        "quarter": 1,
+        "value": -22730000000
+      },
+      {
+        "reportdate": 1696046400,
+        "reportDateShort": 20230930,
+        "year": 2023,
+        "quarter": 4,
+        "value": -21315000000
+      }
+    ],
+    "increase_capital_stock": [
+      {
+        "reportdate": 1782532800,
+        "reportDateShort": 20260627,
+        "year": 2026,
+        "quarter": 3,
+        "value": 0
+      },
+      {
+        "reportdate": 1774670400,
+        "reportDateShort": 20260328,
+        "year": 2026,
+        "quarter": 2,
+        "value": 0
+      },
+      {
+        "reportdate": 1758945600,
+        "reportDateShort": 20250927,
+        "year": 2025,
+        "quarter": 4,
+        "value": 0
+      },
+      {
+        "reportdate": 1751083200,
+        "reportDateShort": 20250628,
+        "year": 2025,
+        "quarter": 3,
+        "value": 0
+      },
+      {
+        "reportdate": 1743220800,
+        "reportDateShort": 20250329,
+        "year": 2025,
+        "quarter": 2,
+        "value": 0
+      },
+      {
+        "reportdate": 1727496000,
+        "reportDateShort": 20240928,
+        "year": 2024,
+        "quarter": 4,
+        "value": 0
+      },
+      {
+        "reportdate": 1719633600,
+        "reportDateShort": 20240629,
+        "year": 2024,
+        "quarter": 3,
+        "value": 0
+      },
+      {
+        "reportdate": 1711771200,
+        "reportDateShort": 20240330,
+        "year": 2024,
+        "quarter": 2,
+        "value": 0
+      },
+      {
+        "reportdate": 1696046400,
+        "reportDateShort": 20230930,
+        "year": 2023,
+        "quarter": 4,
+        "value": 0
+      }
+    ],
+    "cash_from_repurchase_equity": [
+      {
+        "reportdate": 1782532800,
+        "reportDateShort": 20260627,
+        "year": 2026,
+        "quarter": 3,
+        "value": -28315000000
+      },
+      {
+        "reportdate": 1774670400,
+        "reportDateShort": 20260328,
+        "year": 2026,
+        "quarter": 2,
+        "value": -12618000000
+      },
+      {
+        "reportdate": 1766811600,
+        "reportDateShort": 20251227,
+        "year": 2026,
+        "quarter": 1,
+        "value": -27623000000
+      },
+      {
+        "reportdate": 1758945600,
+        "reportDateShort": 20250927,
+        "year": 2025,
+        "quarter": 4,
+        "value": -20373000000
+      },
+      {
+        "reportdate": 1751083200,
+        "reportDateShort": 20250628,
+        "year": 2025,
+        "quarter": 3,
+        "value": -23589000000
+      },
+      {
+        "reportdate": 1743220800,
+        "reportDateShort": 20250329,
+        "year": 2025,
+        "quarter": 2,
+        "value": -26182000000
+      },
+      {
+        "reportdate": 1735362000,
+        "reportDateShort": 20241228,
+        "year": 2025,
+        "quarter": 1,
+        "value": -26527000000
+      },
+      {
+        "reportdate": 1727496000,
+        "reportDateShort": 20240928,
+        "year": 2024,
+        "quarter": 4,
+        "value": -25361000000
+      },
+      {
+        "reportdate": 1719633600,
+        "reportDateShort": 20240629,
+        "year": 2024,
+        "quarter": 3,
+        "value": -28810000000
+      },
+      {
+        "reportdate": 1711771200,
+        "reportDateShort": 20240330,
+        "year": 2024,
+        "quarter": 2,
+        "value": -23489000000
+      },
+      {
+        "reportdate": 1703912400,
+        "reportDateShort": 20231230,
+        "year": 2024,
+        "quarter": 1,
+        "value": -22730000000
+      },
+      {
+        "reportdate": 1696046400,
+        "reportDateShort": 20230930,
+        "year": 2023,
+        "quarter": 4,
+        "value": -21315000000
+      }
+    ],
+    "cash_from_repayment_debt": [
+      {
+        "reportdate": 1782532800,
+        "reportDateShort": 20260627,
+        "year": 2026,
+        "quarter": 3,
+        "value": -232000000
+      },
+      {
+        "reportdate": 1774670400,
+        "reportDateShort": 20260328,
+        "year": 2026,
+        "quarter": 2,
+        "value": -5751000000
+      },
+      {
+        "reportdate": 1766811600,
+        "reportDateShort": 20251227,
+        "year": 2026,
+        "quarter": 1,
+        "value": -8074000000
+      },
+      {
+        "reportdate": 1758945600,
+        "reportDateShort": 20250927,
+        "year": 2025,
+        "quarter": 4,
+        "value": -3217000000
+      },
+      {
+        "reportdate": 1751083200,
+        "reportDateShort": 20250628,
+        "year": 2025,
+        "quarter": 3,
+        "value": 2711000000
+      },
+      {
+        "reportdate": 1743220800,
+        "reportDateShort": 20250329,
+        "year": 2025,
+        "quarter": 2,
+        "value": -6968000000
+      },
+      {
+        "reportdate": 1735362000,
+        "reportDateShort": 20241228,
+        "year": 2025,
+        "quarter": 1,
+        "value": -8953000000
+      },
+      {
+        "reportdate": 1727496000,
+        "reportDateShort": 20240928,
+        "year": 2024,
+        "quarter": 4,
+        "value": 4387000000
+      },
+      {
+        "reportdate": 1719633600,
+        "reportDateShort": 20240629,
+        "year": 2024,
+        "quarter": 3,
+        "value": -3253000000
+      },
+      {
+        "reportdate": 1711771200,
+        "reportDateShort": 20240330,
+        "year": 2024,
+        "quarter": 2,
+        "value": -3148000000
+      },
+      {
+        "reportdate": 1696046400,
+        "reportDateShort": 20230930,
+        "year": 2023,
+        "quarter": 4,
+        "value": 1993000000
+      }
+    ],
+    "stock_based_compensation": [
+      {
+        "reportdate": 1782532800,
+        "reportDateShort": 20260627,
+        "year": 2026,
+        "quarter": 3,
+        "value": 3401000000
+      },
+      {
+        "reportdate": 1774670400,
+        "reportDateShort": 20260328,
+        "year": 2026,
+        "quarter": 2,
+        "value": 3528000000
+      },
+      {
+        "reportdate": 1766811600,
+        "reportDateShort": 20251227,
+        "year": 2026,
+        "quarter": 1,
+        "value": 3594000000
+      },
+      {
+        "reportdate": 1758945600,
+        "reportDateShort": 20250927,
+        "year": 2025,
+        "quarter": 4,
+        "value": 3183000000
+      },
+      {
+        "reportdate": 1751083200,
+        "reportDateShort": 20250628,
+        "year": 2025,
+        "quarter": 3,
+        "value": 3168000000
+      },
+      {
+        "reportdate": 1743220800,
+        "reportDateShort": 20250329,
+        "year": 2025,
+        "quarter": 2,
+        "value": 3226000000
+      },
+      {
+        "reportdate": 1735362000,
+        "reportDateShort": 20241228,
+        "year": 2025,
+        "quarter": 1,
+        "value": 3286000000
+      },
+      {
+        "reportdate": 1727496000,
+        "reportDateShort": 20240928,
+        "year": 2024,
+        "quarter": 4,
+        "value": 2858000000
+      },
+      {
+        "reportdate": 1719633600,
+        "reportDateShort": 20240629,
+        "year": 2024,
+        "quarter": 3,
+        "value": 2869000000
+      },
+      {
+        "reportdate": 1711771200,
+        "reportDateShort": 20240330,
+        "year": 2024,
+        "quarter": 2,
+        "value": 2964000000
+      },
+      {
+        "reportdate": 1703912400,
+        "reportDateShort": 20231230,
+        "year": 2024,
+        "quarter": 1,
+        "value": 2997000000
+      },
+      {
+        "reportdate": 1696046400,
+        "reportDateShort": 20230930,
+        "year": 2023,
+        "quarter": 4,
+        "value": 2625000000
+      }
+    ],
+    "total_debt": [
+      {
+        "reportdate": 1782532800,
+        "reportDateShort": 20260627,
+        "year": 2026,
+        "quarter": 3,
+        "value": 84344000000
+      },
+      {
+        "reportdate": 1774670400,
+        "reportDateShort": 20260328,
+        "year": 2026,
+        "quarter": 2,
+        "value": 84711000000
+      },
+      {
+        "reportdate": 1766811600,
+        "reportDateShort": 20251227,
+        "year": 2026,
+        "quarter": 1,
+        "value": 90509000000
+      },
+      {
+        "reportdate": 1758945600,
+        "reportDateShort": 20250927,
+        "year": 2025,
+        "quarter": 4,
+        "value": 98657000000
+      },
+      {
+        "reportdate": 1751083200,
+        "reportDateShort": 20250628,
+        "year": 2025,
+        "quarter": 3,
+        "value": 101698000000
+      },
+      {
+        "reportdate": 1743220800,
+        "reportDateShort": 20250329,
+        "year": 2025,
+        "quarter": 2,
+        "value": 98186000000
+      },
+      {
+        "reportdate": 1735362000,
+        "reportDateShort": 20241228,
+        "year": 2025,
+        "quarter": 1,
+        "value": 96799000000
+      },
+      {
+        "reportdate": 1727496000,
+        "reportDateShort": 20240928,
+        "year": 2024,
+        "quarter": 4,
+        "value": 106629000000
+      },
+      {
+        "reportdate": 1719633600,
+        "reportDateShort": 20240629,
+        "year": 2024,
+        "quarter": 3,
+        "value": 101304000000
+      },
+      {
+        "reportdate": 1711771200,
+        "reportDateShort": 20240330,
+        "year": 2024,
+        "quarter": 2,
+        "value": 104590000000
+      },
+      {
+        "reportdate": 1703912400,
+        "reportDateShort": 20231230,
+        "year": 2024,
+        "quarter": 1,
+        "value": 108040000000
+      },
+      {
+        "reportdate": 1696046400,
+        "reportDateShort": 20230930,
+        "year": 2023,
+        "quarter": 4,
+        "value": 111088000000
+      }
+    ],
+    "free_cash_flow": [
+      {
+        "reportdate": 1782532800,
+        "reportDateShort": 20260627,
+        "year": 2026,
+        "quarter": 3,
+        "value": 31914000000
+      },
+      {
+        "reportdate": 1774670400,
+        "reportDateShort": 20260328,
+        "year": 2026,
+        "quarter": 2,
+        "value": 26731000000
+      },
+      {
+        "reportdate": 1766811600,
+        "reportDateShort": 20251227,
+        "year": 2026,
+        "quarter": 1,
+        "value": 51552000000
+      },
+      {
+        "reportdate": 1758945600,
+        "reportDateShort": 20250927,
+        "year": 2025,
+        "quarter": 4,
+        "value": 26486000000
+      },
+      {
+        "reportdate": 1751083200,
+        "reportDateShort": 20250628,
+        "year": 2025,
+        "quarter": 3,
+        "value": 24405000000
+      },
+      {
+        "reportdate": 1743220800,
+        "reportDateShort": 20250329,
+        "year": 2025,
+        "quarter": 2,
+        "value": 20881000000
+      },
+      {
+        "reportdate": 1735362000,
+        "reportDateShort": 20241228,
+        "year": 2025,
+        "quarter": 1,
+        "value": 26995000000
+      },
+      {
+        "reportdate": 1727496000,
+        "reportDateShort": 20240928,
+        "year": 2024,
+        "quarter": 4,
+        "value": 23903000000
+      },
+      {
+        "reportdate": 1719633600,
+        "reportDateShort": 20240629,
+        "year": 2024,
+        "quarter": 3,
+        "value": 26707000000
+      },
+      {
+        "reportdate": 1711771200,
+        "reportDateShort": 20240330,
+        "year": 2024,
+        "quarter": 2,
+        "value": 20694000000
+      },
+      {
+        "reportdate": 1703912400,
+        "reportDateShort": 20231230,
+        "year": 2024,
+        "quarter": 1,
+        "value": 37503000000
+      },
+      {
+        "reportdate": 1696046400,
+        "reportDateShort": 20230930,
+        "year": 2023,
+        "quarter": 4,
+        "value": 19435000000
+      }
+    ],
+    "cash_st_investments": [
+      {
+        "reportdate": 1782532800,
+        "reportDateShort": 20260627,
+        "year": 2026,
+        "quarter": 3,
+        "value": 62399000000
+      },
+      {
+        "reportdate": 1774670400,
+        "reportDateShort": 20260328,
+        "year": 2026,
+        "quarter": 2,
+        "value": 68507000000
+      },
+      {
+        "reportdate": 1766811600,
+        "reportDateShort": 20251227,
+        "year": 2026,
+        "quarter": 1,
+        "value": 66907000000
+      },
+      {
+        "reportdate": 1758945600,
+        "reportDateShort": 20250927,
+        "year": 2025,
+        "quarter": 4,
+        "value": 54697000000
+      },
+      {
+        "reportdate": 1751083200,
+        "reportDateShort": 20250628,
+        "year": 2025,
+        "quarter": 3,
+        "value": 55372000000
+      },
+      {
+        "reportdate": 1743220800,
+        "reportDateShort": 20250329,
+        "year": 2025,
+        "quarter": 2,
+        "value": 48498000000
+      },
+      {
+        "reportdate": 1735362000,
+        "reportDateShort": 20241228,
+        "year": 2025,
+        "quarter": 1,
+        "value": 53775000000
+      },
+      {
+        "reportdate": 1727496000,
+        "reportDateShort": 20240928,
+        "year": 2024,
+        "quarter": 4,
+        "value": 65171000000
+      },
+      {
+        "reportdate": 1719633600,
+        "reportDateShort": 20240629,
+        "year": 2024,
+        "quarter": 3,
+        "value": 61801000000
+      },
+      {
+        "reportdate": 1711771200,
+        "reportDateShort": 20240330,
+        "year": 2024,
+        "quarter": 2,
+        "value": 67150000000
+      },
+      {
+        "reportdate": 1703912400,
+        "reportDateShort": 20231230,
+        "year": 2024,
+        "quarter": 1,
+        "value": 73100000000
+      },
+      {
+        "reportdate": 1696046400,
+        "reportDateShort": 20230930,
+        "year": 2023,
+        "quarter": 4,
+        "value": 61555000000
+      }
+    ],
+    "shares_basic_bs": [
+      {
+        "reportdate": 1782532800,
+        "reportDateShort": 20260627,
+        "year": 2026,
+        "quarter": 3,
+        "value": 14656110000
+      },
+      {
+        "reportdate": 1774670400,
+        "reportDateShort": 20260328,
+        "year": 2026,
+        "quarter": 2,
+        "value": 14673278000
+      },
+      {
+        "reportdate": 1766811600,
+        "reportDateShort": 20251227,
+        "year": 2026,
+        "quarter": 1,
+        "value": 14748158000
+      },
+      {
+        "reportdate": 1758945600,
+        "reportDateShort": 20250927,
+        "year": 2025,
+        "quarter": 4,
+        "value": 14815307000
+      },
+      {
+        "reportdate": 1751083200,
+        "reportDateShort": 20250628,
+        "year": 2025,
+        "quarter": 3,
+        "value": 14902886000
+      },
+      {
+        "reportdate": 1743220800,
+        "reportDateShort": 20250329,
+        "year": 2025,
+        "quarter": 2,
+        "value": 14994082000
+      },
+      {
+        "reportdate": 1735362000,
+        "reportDateShort": 20241228,
+        "year": 2025,
+        "quarter": 1,
+        "value": 15081724000
+      },
+      {
+        "reportdate": 1727496000,
+        "reportDateShort": 20240928,
+        "year": 2024,
+        "quarter": 4,
+        "value": 15171990000
+      },
+      {
+        "reportdate": 1719633600,
+        "reportDateShort": 20240629,
+        "year": 2024,
+        "quarter": 3,
+        "value": 15287521000
+      },
+      {
+        "reportdate": 1711771200,
+        "reportDateShort": 20240330,
+        "year": 2024,
+        "quarter": 2,
+        "value": 15405856000
+      },
+      {
+        "reportdate": 1703912400,
+        "reportDateShort": 20231230,
+        "year": 2024,
+        "quarter": 1,
+        "value": 15509763000
+      },
+      {
+        "reportdate": 1696046400,
+        "reportDateShort": 20230930,
+        "year": 2023,
+        "quarter": 4,
+        "value": 15599434000
+      }
+    ],
+    "net_income": [
+      {
+        "reportdate": 1782532800,
+        "reportDateShort": 20260627,
+        "year": 2026,
+        "quarter": 3,
+        "value": 29789000000
+      },
+      {
+        "reportdate": 1774670400,
+        "reportDateShort": 20260328,
+        "year": 2026,
+        "quarter": 2,
+        "value": 29578000000
+      },
+      {
+        "reportdate": 1766811600,
+        "reportDateShort": 20251227,
+        "year": 2026,
+        "quarter": 1,
+        "value": 42097000000
+      },
+      {
+        "reportdate": 1758945600,
+        "reportDateShort": 20250927,
+        "year": 2025,
+        "quarter": 4,
+        "value": 27466000000
+      },
+      {
+        "reportdate": 1751083200,
+        "reportDateShort": 20250628,
+        "year": 2025,
+        "quarter": 3,
+        "value": 23434000000
+      },
+      {
+        "reportdate": 1743220800,
+        "reportDateShort": 20250329,
+        "year": 2025,
+        "quarter": 2,
+        "value": 24780000000
+      },
+      {
+        "reportdate": 1735362000,
+        "reportDateShort": 20241228,
+        "year": 2025,
+        "quarter": 1,
+        "value": 36330000000
+      },
+      {
+        "reportdate": 1727496000,
+        "reportDateShort": 20240928,
+        "year": 2024,
+        "quarter": 4,
+        "value": 14736000000
+      },
+      {
+        "reportdate": 1719633600,
+        "reportDateShort": 20240629,
+        "year": 2024,
+        "quarter": 3,
+        "value": 21448000000
+      },
+      {
+        "reportdate": 1711771200,
+        "reportDateShort": 20240330,
+        "year": 2024,
+        "quarter": 2,
+        "value": 23636000000
+      },
+      {
+        "reportdate": 1703912400,
+        "reportDateShort": 20231230,
+        "year": 2024,
+        "quarter": 1,
+        "value": 33916000000
+      },
+      {
+        "reportdate": 1696046400,
+        "reportDateShort": 20230930,
+        "year": 2023,
+        "quarter": 4,
+        "value": 22956000000
+      }
+    ]
+  },
+  "sector": "technology",
+  "assetType": "stock"
+}

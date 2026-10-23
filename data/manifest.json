@@ -1,0 +1,35 @@
+{
+  "captured": "2026-10-24",
+  "source": "Native TrendSpider request.fundamental, 12 quarters. Sector context for batch fixtures is manually labeled; CVX metadata came from current.",
+  "pointInTime": false,
+  "files": [
+    {
+      "file": "AAPL.json",
+      "sha256": "58d29744d65db53f32f758bb158222228b82561ae330a8cd32f705d49a34d783"
+    },
+    {
+      "file": "BA.json",
+      "sha256": "7cc928be28af5fa7921cac5b460caa05f26c963cf99da61f72ff193a61914d5a"
+    },
+    {
+      "file": "CSCO.json",
+      "sha256": "c4d06b8eb811337963f98a0b26bac3284102ae4f52b2b9cdd757296a065f24df"
+    },
+    {
+      "file": "CVX.json",
+      "sha256": "63f5f00e62160452c6635d6cab800f097cdea721787e46aba2eb37e3567b8e76"
+    },
+    {
+      "file": "JPM.json",
+      "sha256": "61584971e62137551f9ec3a27e9e2b14168ec4fecfc7b30671e855714ac3ef48"
+    },
+    {
+      "file": "MSFT.json",
+      "sha256": "e75291811126343374d6fea280a17a67385d6c027868d2320e28956df2372888"
+    },
+    {
+      "file": "NKE.json",
+      "sha256": "2b98617ddc6f73bbcc3b19d90508b755119bef30b3bca2b40706a2caf3666b93"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+import crypto from 'node:crypto';
+const root = new URL('../', import.meta.url);
+const parts = await Promise.all(['engine','presentation','trendspider'].map(n=>fs.readFile(new URL(`src/${n}.js`,root),'utf8')));
+const code = '/* Harbor - Payout Funding Audit | MIT | #TSBuild26\n * Latest reported fundamentals only. No historical trading signal or recommendation.\n */\n\n' + parts.join('\n\n');
+if (/\bnew\s+[A-Za-z_$]|\.prototype\b/.test(parts.join('\n'))) throw Error('Unsupported native constructor/prototype operation');
+await fs.mkdir(new URL('dist/',root),{recursive:true});
+await fs.writeFile(new URL('dist/harbor.trendspider.js',root),code);
+await fs.writeFile(new URL('dist/harbor.browser.js',root),parts.slice(0,2).join('\n\n')+'\nexport { calculateHarbor, buildHarborOverlay, harborWaterfall };\n');
+await fs.writeFile(new URL('dist/build.json',root),JSON.stringify({version:'1.0.0',bytes:Buffer.byteLength(code),sha256:crypto.createHash('sha256').update(code).digest('hex')},null,2)+'\n');
+console.log(`Built ${Buffer.byteLength(code)} bytes`);

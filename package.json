@@ -1,0 +1,13 @@
+{
+  "name": "harbor-payout-funding-audit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "qa": "node tools/qa.mjs",
+    "preview": "python3 -m http.server 8767 --bind 127.0.0.1"
+  }
+}
