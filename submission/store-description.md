@@ -19,4 +19,5 @@ Cash reserves, total debt, net borrowing or repayment, and year-over-year share-
 Ink and Paper palettes; Full and Compact layouts. For a clean view, collapse the indicator list. Free and open source under MIT. Built for **Best Fundamental Analysis Indicator**. #TSBuild26
 
 ---
-Draft for review. Publish only after reviewing the native screenshots and confirming public/free/published-source settings. The paragraph above this rule is the end of the Store description.
+Published October 24, 2026, free with visible source; pending moderation. Store: https://trendspider.com/trading-tools-store/indicators/6adc42-harbor-payout-funding-audit/
+The paragraph above this rule is the end of the Store description.

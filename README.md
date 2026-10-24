@@ -2,7 +2,7 @@
 
 **Are net cash payouts covered by the business?** Harbor follows operating cash through fixed investment, dividends and net repurchases, then lets a trader test an operating-cash decline with investment and payouts held fixed. It identifies a concrete research question rather than inventing a quality score or fair-value target.
 
-Category: **Best Fundamental Analysis Indicator**. Original implementation, MIT, `#TSBuild26`. Saved privately in TrendSpider for review; **not published or submitted**.
+Category: **Best Fundamental Analysis Indicator**. Original implementation, MIT, `#TSBuild26`. **Published to the [TrendSpider Store](https://trendspider.com/trading-tools-store/indicators/6adc42-harbor-payout-funding-audit/) on October 24, 2026; pending moderation.** Free for everyone, with visible source. The separate hackathon form has not been submitted by the agent.
 
 ## Open the build
 

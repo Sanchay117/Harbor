@@ -39,6 +39,12 @@ The adapter's current conditions populate only the latest bar. Automated tests a
 
 This is a latest-reported snapshot, not an archived view of what was knowable at each date. Period ends and current revised data do not establish filing-availability timestamps. There are no historical performance claims. Unsupported/missing dividend or equity records do not prove the company had zero payouts. The bridge is not a full cash-balance reconciliation, and net repurchases are not gross buybacks.
 
-The Full and Compact native cards were reviewed on a dark chart background; a complete native light-chart theme switch was not tested. Store publication preview and public source availability must be checked during publication. The Compact card dimensions/offset target the Store's 1000×525 preview, but no legal/IP publication confirmations were accepted by the agent.
+The Full and Compact native cards were reviewed on a dark chart background; a complete native light-chart theme switch was not tested. The actual Store preview was verified using **CVX / Ink / Compact / 20% stress / Top Left / Above All / x48, y70**. The native preview plot is shorter than the overall image, so the y70 preview offset preserves the complete footer. Chart installations retain the source default y100 and can edit that appearance setting. Evidence: `screenshots/store-preview-ready.png`.
 
-**Harbor remains private and unsubmitted.** Store description and final-form copy are prepared in `submission/`. User review, Store publication/moderation, and the separate category-three submission form remain.
+## Publication receipt
+
+On **October 24, 2026**, after the user explicitly confirmed the ownership declaration and the separate Store Developer Agreement, Harbor was published as **Free for everyone**, with **See the source code** enabled and **#TSBuild26** included in the description. TrendSpider confirmed publication and displayed **Pending moderation**. Evidence: `screenshots/store-published-pending.png`.
+
+Store URL: https://trendspider.com/trading-tools-store/indicators/6adc42-harbor-payout-funding-audit/
+
+The native confirmation states that subscribers can use the indicator and see its source code. The public Store page initially presented a connection-security challenge, so the live public Overview/Source Code tabs and final typographic Store title were not independently inspected after publication. Public discoverability and source rendering remain subject to moderation and that final public-page check. The separate category-three hackathon form remains for the user to submit.
