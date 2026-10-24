@@ -12,11 +12,11 @@ paint_overlay('Harbor audit', { position: 'top_left', offset_x: 48, offset_y: 10
 // Current-snapshot scanner conditions only. No point-in-time availability data is
 // supplied by this endpoint; never backfill them on historical bars.
 for (const harborCondition of [
-  ['Current payout covered by FCF', harborSnapshot.flags.covered],
-  ['Current payout exceeds FCF', harborSnapshot.flags.gap],
-  ['Current dividends exceed FCF', harborSnapshot.flags.dividendsAtRisk]
+  ['Current payout covered by FCF', harborSnapshot.flags.covered, harborSnapshot.conditionReady.netPayout],
+  ['Current payout exceeds FCF', harborSnapshot.flags.gap, harborSnapshot.conditionReady.netPayout],
+  ['Current dividends exceed FCF', harborSnapshot.flags.dividendsAtRisk, harborSnapshot.conditionReady.dividends]
 ]) {
   const harborFlag = close.map(() => null);
-  if (harborFlag.length) harborFlag[harborFlag.length - 1] = harborSnapshot.ready ? (harborCondition[1] ? 1 : 0) : null;
+  if (harborFlag.length) harborFlag[harborFlag.length - 1] = harborCondition[2] ? (harborCondition[1] ? 1 : 0) : null;
   register_signal(harborFlag, harborCondition[0]);
 }

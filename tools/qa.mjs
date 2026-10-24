@@ -13,7 +13,7 @@ for(const name of (await fs.readdir(new URL('data/',root))).filter(n=>/^[A-Z]+\.
     assert.equal(m.latest.ocf-m.latest.capex-m.latest.payout,m.latest.residual);
     assert.ok(m.history.every(h=>h.periods.length===4));
   }
-  rows.push({ticker:fixture.ticker,status:m.status,ready:m.ready,period:m.latest?.end.reportDateShort??null,
+  rows.push({ticker:fixture.ticker,status:m.status,ready:m.ready,conditionReady:m.conditionReady,dividendGap:m.flags.dividendsAtRisk,dividendRemainder:m.latest?.dividendResidual??null,headroom:m.headroom??null,period:m.latest?.end.reportDateShort??null,
     ocf:m.latest?.ocf??null,fcf:m.latest?.fcf??null,payout:m.latest?.payout??null,remainder:m.latest?.residual??null,
     coverage:m.latest?.coverage??null,stressRemainder:m.scenario?.residual??null,fcfCheck:m.latest?.reconciles??null,
     missingCore:m.latest?.missing.filter(x=>['net_cash_operating_activities','purchase_fixed_assets','dividends_paid','cash_from_repurchase_equity'].includes(x))??[]});

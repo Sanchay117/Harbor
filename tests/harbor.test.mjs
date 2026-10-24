@@ -34,7 +34,8 @@ test('missing is not zero; latest incomplete period never falls back silently',(
   const m=api.calculateHarbor(d,options);
   assert.equal(m.latest.end.reportDateShort,20260630); assert.equal(m.ready,false);
   assert.equal(m.latest.payout,null); assert.equal(m.flags.covered,false); assert.equal(m.flags.gap,false);
-  assert.equal(m.latest.fcf,80); assert.equal(m.status,'LIMITED DATA');
+  assert.equal(m.latest.fcf,80); assert.equal(m.status,'DIVIDEND AUDIT ONLY · NET PAYOUT UNKNOWN');
+  assert.equal(m.conditionReady.dividends,true);assert.equal(m.latest.dividendResidual,68);
 });
 test('fiscal keys and exact dates prevent accidental positional joins',()=>{
   const d=fixture(); d.dividends_paid.reverse();
@@ -91,5 +92,46 @@ test('palettes and layouts use serializable charts; symbols are escaped',()=>{
     const m=api.calculateHarbor(fixture(),{...options,ticker:'<bad & symbol>'});
     const json=JSON.stringify(api.buildHarborOverlay(m,{theme,compact}));
     assert.ok(json.includes('&lt;bad &amp; symbol&gt;'));assert.ok(!json.includes('NaN'));assert.ok(!json.includes('Infinity'));
+  }
+});
+
+test('old and optional duplicates affect only their own field and window',()=>{
+  const base=api.calculateHarbor(fixture(),options);
+  const old=fixture();old.free_cash_flow.push({...old.free_cash_flow.at(-1)});
+  const a=api.calculateHarbor(old,options);
+  assert.equal(a.status,base.status);assert.equal(a.ready,true);assert.equal(a.latest.reconciles,true);
+  assert.equal(a.history[0].reconciles,null);
+  const current=fixture();current.cash_st_investments.push({...current.cash_st_investments[0]});
+  const b=api.calculateHarbor(current,options);
+  assert.equal(b.ready,true);assert.equal(b.latest.cash,null);assert.equal(b.flags.covered,true);
+  const core=fixture();core.cash_from_repurchase_equity.push({...core.cash_from_repurchase_equity[0]});
+  const c=api.calculateHarbor(core,options);
+  assert.equal(c.ready,false);assert.equal(c.conditionReady.dividends,true);assert.equal(c.latest.payout,null);
+  const ocf=fixture();ocf.net_cash_operating_activities.push({...ocf.net_cash_operating_activities[0]});
+  const d=api.calculateHarbor(ocf,options);
+  assert.equal(d.latest,null);assert.equal(d.status,'INCOMPLETE PERIODS');
+});
+test('Nike dividend audit remains usable with missing equity flows',async()=>{
+  const f=JSON.parse(await fs.readFile(new URL('../data/NKE.json',import.meta.url),'utf8'));
+  const m=api.calculateHarbor(f.data,{...options,stress:20,ticker:'NKE'});
+  assert.equal(m.ready,false);assert.equal(m.conditionReady.dividends,true);
+  assert.equal(m.latest.fcf,2105000000);assert.equal(m.latest.dividends,2426000000);
+  assert.equal(m.latest.dividendResidual,-321000000);assert.equal(m.flags.dividendsAtRisk,true);
+  assert.equal(m.latest.payout,null);assert.equal(m.flags.gap,false);
+  const legs=api.harborWaterfall(m);assert.equal(legs.length,5);assert.equal(legs.at(-1).to,-321000000);
+  assert.match(JSON.stringify(api.buildHarborOverlay(m)),/FCF \/ DIVIDENDS/);
+});
+test('native adapter emits dividend result independently of unknown net payout',async()=>{
+  const adapter=await fs.readFile(new URL('../src/trendspider.js',import.meta.url),'utf8');
+  const d=fixture();delete d.cash_from_repurchase_equity;d.dividends_paid.forEach(r=>r.value=-25);
+  const signals=[];const input=()=> 'Ink';input.number=()=>20;
+  const ctx={Date:{UTC:Date.UTC,now:()=>asOf},close:[1,2,3],current:{ticker:'TEST',assetType:'stock',sector:'technology'},input,
+    describe_indicator:()=>{},request:{fundamental:async()=>d},register_signal:(arr,name)=>signals.push({arr,name}),paint_overlay:()=>{}};
+  await vm.runInNewContext('(async()=>{'+engine+presentation+adapter+'})()',ctx);
+  assert.equal(signals[0].arr.at(-1),null);assert.equal(signals[1].arr.at(-1),null);
+  assert.equal(signals[2].arr.at(-1),1);assert.ok(signals.every(s=>s.arr.slice(0,-1).every(x=>x===null)));
+  for(const key of ['purchase_fixed_assets','dividends_paid']){
+    const invalid=fixture();invalid[key].push({...invalid[key][0]});
+    assert.equal(api.calculateHarbor(invalid,options).conditionReady.dividends,false);
   }
 });

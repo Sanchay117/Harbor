@@ -7,5 +7,6 @@ if (/\bnew\s+[A-Za-z_$]|\.prototype\b/.test(parts.join('\n'))) throw Error('Unsu
 await fs.mkdir(new URL('dist/',root),{recursive:true});
 await fs.writeFile(new URL('dist/harbor.trendspider.js',root),code);
 await fs.writeFile(new URL('dist/harbor.browser.js',root),parts.slice(0,2).join('\n\n')+'\nexport { calculateHarbor, buildHarborOverlay, harborWaterfall };\n');
-await fs.writeFile(new URL('dist/build.json',root),JSON.stringify({version:'1.0.0',bytes:Buffer.byteLength(code),sha256:crypto.createHash('sha256').update(code).digest('hex')},null,2)+'\n');
+const pkg=JSON.parse(await fs.readFile(new URL('package.json',root),'utf8'));
+await fs.writeFile(new URL('dist/build.json',root),JSON.stringify({version:pkg.version,bytes:Buffer.byteLength(code),sha256:crypto.createHash('sha256').update(code).digest('hex')},null,2)+'\n');
 console.log(`Built ${Buffer.byteLength(code)} bytes`);

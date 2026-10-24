@@ -4,8 +4,15 @@
   "results": [
     {
       "ticker": "AAPL",
-      "status": "PAYOUT COVERED BY FCF",
+      "status": "NET PAYOUT COVERED BY FCF",
       "ready": true,
+      "conditionReady": {
+        "netPayout": true,
+        "dividends": true
+      },
+      "dividendGap": false,
+      "dividendRemainder": 121043000000,
+      "headroom": 0.21887353125596357,
       "period": 20260627,
       "ocf": 146724000000,
       "fcf": 136683000000,
@@ -20,6 +27,13 @@
       "ticker": "BA",
       "status": "LIMITED DATA",
       "ready": false,
+      "conditionReady": {
+        "netPayout": false,
+        "dividends": false
+      },
+      "dividendGap": false,
+      "dividendRemainder": null,
+      "headroom": null,
       "period": 20260630,
       "ocf": 3639000000,
       "fcf": -210000000,
@@ -34,8 +48,15 @@
     },
     {
       "ticker": "CSCO",
-      "status": "PAYOUT EXCEEDS FCF",
+      "status": "NET PAYOUT EXCEEDS FCF",
       "ready": true,
+      "conditionReady": {
+        "netPayout": true,
+        "dividends": true
+      },
+      "dividendGap": false,
+      "dividendRemainder": 6214000000,
+      "headroom": -0.06771531353600903,
       "period": 20260725,
       "ocf": 14177000000,
       "fcf": 12767000000,
@@ -48,8 +69,15 @@
     },
     {
       "ticker": "CVX",
-      "status": "PAYOUT COVERED BY FCF",
+      "status": "NET PAYOUT COVERED BY FCF",
       "ready": true,
+      "conditionReady": {
+        "netPayout": true,
+        "dividends": true
+      },
+      "dividendGap": false,
+      "dividendRemainder": 13149000000,
+      "headroom": 0.07162242668961409,
       "period": 20260630,
       "ocf": 45321000000,
       "fcf": 27012000000,
@@ -64,6 +92,13 @@
       "ticker": "JPM",
       "status": "SECTOR OUT OF SCOPE",
       "ready": false,
+      "conditionReady": {
+        "netPayout": false,
+        "dividends": false
+      },
+      "dividendGap": false,
+      "dividendRemainder": null,
+      "headroom": null,
       "period": null,
       "ocf": null,
       "fcf": null,
@@ -76,8 +111,15 @@
     },
     {
       "ticker": "MSFT",
-      "status": "PAYOUT COVERED BY FCF",
+      "status": "NET PAYOUT COVERED BY FCF",
       "ready": true,
+      "conditionReady": {
+        "netPayout": true,
+        "dividends": true
+      },
+      "dividendGap": false,
+      "dividendRemainder": 40542000000,
+      "headroom": 0.11085904829584278,
       "period": 20260630,
       "ocf": 182935000000,
       "fcf": 66987000000,
@@ -90,8 +132,15 @@
     },
     {
       "ticker": "NKE",
-      "status": "LIMITED DATA",
+      "status": "DIVIDEND AUDIT ONLY · NET PAYOUT UNKNOWN",
       "ready": false,
+      "conditionReady": {
+        "netPayout": false,
+        "dividends": true
+      },
+      "dividendGap": true,
+      "dividendRemainder": -321000000,
+      "headroom": null,
       "period": 20260831,
       "ocf": 2781000000,
       "fcf": 2105000000,

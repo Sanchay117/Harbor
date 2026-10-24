@@ -9,7 +9,7 @@ Form: https://docs.google.com/forms/d/e/1FAIpQLSdOi84k_GXCS3h-YxDqruye0uGAi6cqte
 
 ## Short description
 
-Harbor audits whether reported cash payouts are covered by the business. It reconciles four aligned quarters of operating cash, fixed-asset purchases, dividends and net repurchases in a waterfall, numerical receipt and TTM comparison table. Coverage, funding headroom and a configurable operating-cash stress test turn the figures into a specific research question. Cash, debt, financing flows and share-count changes provide context. Missing data is never treated as zero; unsuitable sectors and stale statements suppress current flags. This is a latest-reported snapshot, not a forecast or historical trading strategy. #TSBuild26
+Harbor audits whether reported net cash payouts are covered by the business. It reconciles four aligned quarters of operating cash, fixed-asset purchases, dividends and net repurchases in a waterfall, numerical receipt and TTM comparison table. Coverage, funding headroom and a configurable operating-cash stress test turn the figures into a specific research question. Cash, debt, financing flows and share-count changes provide context. Missing data is never treated as zero; unsuitable sectors and stale statements suppress current flags. This is a latest-reported snapshot, not a forecast or historical trading strategy. #TSBuild26
 
 ## Before the user submits
 
