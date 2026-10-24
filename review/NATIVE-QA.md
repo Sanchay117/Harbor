@@ -47,4 +47,4 @@ On **October 24, 2026**, after the user explicitly confirmed the ownership decla
 
 Store URL: https://trendspider.com/trading-tools-store/indicators/6adc42-harbor-payout-funding-audit/
 
-The native confirmation states that subscribers can use the indicator and see its source code. The public Store page initially presented a connection-security challenge, so the live public Overview/Source Code tabs and final typographic Store title were not independently inspected after publication. Public discoverability and source rendering remain subject to moderation and that final public-page check. The separate category-three hackathon form remains for the user to submit.
+The native confirmation states that subscribers can use the indicator and see its source code. The public Store URL subsequently loaded and independently displayed **Content is pending moderation** (`screenshots/store-public-moderation.png`). Overview/Source Code tabs and the final typographic Store title are not available before moderation, so those final public-listing checks remain. The separate category-three hackathon form remains for the user to submit.
